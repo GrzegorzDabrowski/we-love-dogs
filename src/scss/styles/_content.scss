@@ -1,0 +1,27 @@
+.content {
+  &-container {
+    width: 100%;
+    height: calc(100vh - 110px);
+    overflow: auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+
+  &-btn {
+    height: 100px;
+    margin: 5px;
+    background: $color-white;
+    cursor: pointer;
+    border: 1px solid $color-border;
+    border-radius: 3px;
+    font-family: $font-base;
+    font-size: 1rem;
+    flex-grow: 1;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.1);
+      transition: 0.2s;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-base;
+  font-size: 10px;
+  background-color: $color-background;
+}
+
+// app width
+.app-container {
+  max-width: 1360px;
+  margin: 0 auto;
+}
