@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import ModalButton from "./ModalButton";
-import { fetchDogImg } from "./utils/fetchDogImg";
+import ModalButton from "../components/ModalButton";
+import { fetchDogImg } from "../utils/fetchDogImg";
 
 const Modal = ({
   openModal,

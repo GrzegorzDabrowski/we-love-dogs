@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import Modal from "./Modal";
-import BreedsGrid from "./BreedsGrid";
-import { fetchDogsApi } from "./utils/fetchDogsApi";
+import Modal from "../components/Modal";
+import BreedsGrid from "../components/BreedsGrid";
+import { fetchDogsApi } from "../utils/fetchDogsApi";
 
 const Content = () => {
   const [dogsData, setDogsData] = useState({});
